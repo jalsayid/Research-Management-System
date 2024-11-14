@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="493.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.l.MachineUserViewer">
+   <children>
+      <TableView fx:id="table" layoutX="59.0" layoutY="14.0" prefHeight="376.0" prefWidth="609.0">
+         <columns>
+            <TableColumn fx:id="Machine_Name" prefWidth="248.0" text="Machine Name " />
+            <TableColumn fx:id="Machine_Id" prefWidth="162.4000244140625" text="Machine ID" />
+            <TableColumn fx:id="Machine_intrest" prefWidth="199.2000732421875" text="Machine Intrest" />
+         </columns>
+      </TableView>
+      <Label fx:id="wrongInput" layoutX="562.0" layoutY="414.0" prefHeight="18.0" prefWidth="136.0" />
+   </children>
+</AnchorPane>

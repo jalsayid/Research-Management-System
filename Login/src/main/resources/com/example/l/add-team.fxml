@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="684.0" prefWidth="859.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.l.AddTeamController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="226.0" layoutX="641.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="242.0" layoutY="496.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p4.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="new_Reserve" layoutX="91.0" layoutY="195.0" prefHeight="352.0" prefWidth="676.0">
+         <children>
+            <HBox layoutX="-10.0" layoutY="-89.0" prefHeight="427.0" prefWidth="723.0" style="-fx-background-color: ECE9EC; -fx-background-radius: 25;">
+               <children>
+                  <VBox prefHeight="246.0" prefWidth="274.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="262.0">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="262.0">
+                                 <children>
+                                    <Label text="leader:">
+                                       <HBox.margin>
+                                          <Insets left="25.0" top="25.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <MenuButton fx:id="team_leader" mnemonicParsing="false" style="-fx-background-radius: 15; -fx-background-color: ECE9EC; -fx-border-color: #A6A6A6; -fx-border-radius: 15;" text="Select Leader">
+                                       <HBox.margin>
+                                          <Insets left="20.0" top="25.0" />
+                                       </HBox.margin>
+                                    </MenuButton>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="60.0" prefHeight="50.0" prefWidth="262.0">
+                           <children>
+                              <Label text="Member:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="25.0" top="25.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Button fx:id="add_member_button" mnemonicParsing="false" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: B7DDE0; -fx-background-radius: 15;" text="Add Member">
+                                 <HBox.margin>
+                                    <Insets left="25.0" top="25.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets left="25.0" top="25.0" />
+                           </VBox.margin>
+                        </ListView>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="166.0" prefWidth="339.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="262.0" />
+                        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="262.0" />
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="60.0" prefHeight="50.0" prefWidth="262.0" />
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="111.0" prefHeight="50.0" prefWidth="262.0" />
+                        <HBox alignment="CENTER_RIGHT" layoutX="10.0" layoutY="161.0" prefHeight="50.0" prefWidth="262.0">
+                           <children>
+                              <Button fx:id="save_button" mnemonicParsing="false" onAction="#save" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: EDBEA4; -fx-background-radius: 15;" text="Save">
+                                 <HBox.margin>
+                                    <Insets right="25.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children></Pane>
+      <Button fx:id="back" layoutX="56.0" layoutY="26.0" mnemonicParsing="false" onAction="#goBack" prefHeight="28.0" prefWidth="94.0" style="-fx-background-color: B7DDE0;" text="Back" />
+      <ImageView fitHeight="42.0" fitWidth="45.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/arrow%20back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="684.0" prefWidth="859.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.l.MemberTeamController">
+        <children>
+      <ImageView fitHeight="210.0" fitWidth="236.0" layoutX="-10.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="232.0" layoutX="651.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p5.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="teamTable" layoutX="89.0" layoutY="125.0" prefHeight="466.0" prefWidth="669.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="53.0" text="TeamID" />
+            <TableColumn fx:id="machine" prefWidth="290.0" text="Machine" />
+          <TableColumn fx:id="projectColumn" prefWidth="150.0" text="Project Name" />
+            <TableColumn fx:id="leaderColumn" prefWidth="144.0" text="Leader" />
+            <TableColumn fx:id="membersColumn" prefWidth="600.0" text="Members" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="57.0" fitWidth="489.0" layoutX="261.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Screenshot%202023-12-12%20at%201.16.40%E2%80%AFPM.png" />
+         </image>
+      </ImageView>
+        </children>
+</AnchorPane>

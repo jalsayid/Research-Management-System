@@ -1,0 +1,8 @@
+MachineName, ID, Interest
+VisionMaster-5000, m001, Computer Vision
+NLPProcessor-XI, m002, Natural Language Processing
+RoboEngine-3000, m003, Robotics
+DataAnalyzer-9000, m004, Data Science
+MLServer-700, m005, Machine Learning
+HR-Laptop-Tom, m006, Human Resources Management
+CAD-Workstation-12, m000, Engineering Design

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="684.0" prefWidth="859.0" style="-fx-background-color: FEFEFE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.l.MemberController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="663.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="222.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="197.0" fitWidth="396.0" layoutX="238.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/M.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tableM" layoutX="191.0" layoutY="145.0" prefHeight="412.0" prefWidth="602.0">
+        <columns>
+          <TableColumn fx:id="nameC" prefWidth="203.0" text="Name" />
+          <TableColumn fx:id="idC" prefWidth="70.0" text="ID" />
+            <TableColumn fx:id="emailC" prefWidth="203.0" text="Email" />
+            <TableColumn fx:id="projectsC" prefWidth="110.0" text="Number of Projects" />
+            <TableColumn fx:id="teamsC" prefWidth="104.0" text="Number of Teams" />
+            <TableColumn fx:id="researchC" prefWidth="557.0" text="Research of interests" />
+        </columns>
+      </TableView>
+      <TextField fx:id="name" layoutX="16.0" layoutY="228.0" />
+      <TextField fx:id="email" layoutX="16.0" layoutY="307.0" />
+      <Text layoutX="20.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="96.21630859375" />
+      <Text layoutX="20.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="76.21630859375" />
+      <Button fx:id="add" layoutX="46.0" layoutY="382.0" mnemonicParsing="false" onAction="#addM" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: #9AD0D3;" text="Add" />
+      <Button fx:id="remove" layoutX="191.0" layoutY="575.0" mnemonicParsing="false" onAction="#removeM" style="-fx-background-color: #EDBEA4;" text="Remove" />
+       <Label fx:id="wrongInput" layoutX="10.0" layoutY="38.0" prefHeight="26.0" prefWidth="193.0" textFill="#f20f0f" />
+   </children>
+</AnchorPane>

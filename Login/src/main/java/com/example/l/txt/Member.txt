@@ -1,0 +1,6 @@
+Name, ID, Email, #projects, #teams, Research of Interest
+Ahmed Khalil, s123, ahmed.khalil@email.com, 5, 4, Computer Vision, Data Science, Machine Learning
+Fatima Abbas, s124, fatima.abbas@email.com, 6, 5, Natural Language Processing, Prototyping
+Karim Saad, s125, karim.saad@email.com, 7, 6, Robotics, Machine Learning, Biotechnology
+Nadia Rizk, s126, nadia.rizk@email.com, 4, 4, Data Science, Biotechnology, Prototyping
+Omar Tarek, s127, omar.tarek@email.com, 5, 5, Machine Learning, Prototyping

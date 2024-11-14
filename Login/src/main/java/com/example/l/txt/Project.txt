@@ -1,0 +1,8 @@
+ProjectName, TeamID, TeamLeader, #Machine, Machines
+QuantumLeap, t001, Ahmed Khalil, 3, MLServer-700
+ProjectSynergy, t002, Fatima Abbas, 1, RoboEngine-3000
+RoboInnovators, t003, Karim Saad, 2, DataAnalyzer-9000, HR-Laptop-Tom
+DataMasters, t004, Nadia Rizk, 3, MLServer-700
+FutureBots, t005, Omar Tarek, 1, DataAnalyzer-9000
+Renewable Energy Study, A000, Karim Saad, 1, HR-Laptop-TomH20NE
+Climate Change Analysis, A000, Karim Saad, 2, HR-Laptop-TomH20NE, VisionMaster-5000

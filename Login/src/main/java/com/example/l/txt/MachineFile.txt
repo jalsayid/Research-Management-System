@@ -1,0 +1,10 @@
+MachineName, MachineID, Interest, Date, ReservationID
+VisionMaster-5000, m001, Computer Vision, 2023-01-01, r001
+NLPProcessor-XI, m002, Natural Language Processing, 2023-01-02, r002
+RoboEngine-3000, m003, Robotics, 2023-01-03, r003
+DataAnalyzer-9000, m004, Data Science, 2023-01-04, r004
+MLServer-700, m005, Machine Learning, 2023-01-05, r005
+HR-Laptop-Tom, , Computer Vision, 2023-12-11, ADGHV
+RoboEngine-3000, , Robotics, 2024-01-03, H20NE
+MLServer-700, , Robotics, 2024-01-06, QSLBO
+MLServer-700, , Natural Language Processing, 2024-02-06, RV70K

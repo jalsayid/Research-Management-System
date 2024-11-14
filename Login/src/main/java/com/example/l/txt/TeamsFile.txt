@@ -1,0 +1,7 @@
+TeamID, projectName, #members, Leader, Member1, Member2, Member3, ...
+t001, QuantumLeap, 5, Ahmed Khalil, Fatima Abbas, Karim Saad, Nadia Rizk, Omar Tarek
+t002, ProjectSynergy, 4, Fatima Abbas, Karim Saad, Nadia Rizk, Omar Tarek
+t003, RoboInnovators, 3, Karim Saad, Nadia Rizk, Omar Tarek
+t004, DataMasters, 5, Nadia Rizk, Omar Tarek, Ahmed Khalil, Fatima Abbas, Karim Saad
+t005, FutureBots, 4, Omar Tarek, Ahmed Khalil, Fatima Abbas, Karim Saad
+A000, Renewable Energy Study, Karim Saad, Ahmed Khalil, Fatima Abbas

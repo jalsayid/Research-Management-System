@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="859.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.l.ProjectPageMember">
+   <children>
+      <ImageView fitHeight="179.0" fitWidth="137.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="141.0" fitWidth="229.0" layoutX="649.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="372.0" layoutX="220.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/p3.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="100.0" layoutY="148.0" prefHeight="388.0" prefWidth="612.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="217.0" resizable="false" text="Project Name" />
+          <TableColumn fx:id="id" prefWidth="63.0" resizable="false" text="TeamID" />
+            <TableColumn fx:id="leader" prefWidth="192.0" resizable="false" text="Team Leader" />
+            <TableColumn fx:id="machine" prefWidth="139.0" resizable="false" text="Machines Used" />
+        </columns>
+      </TableView>
+      <Label fx:id="wrongInput" layoutX="10.0" layoutY="38.0" prefHeight="26.0" prefWidth="193.0" textFill="#f20f0f" />
+   </children>
+</AnchorPane>
